@@ -8,7 +8,7 @@ class CitySearch extends Component {
     }
   }
   handleChange = (e) => {
-    this.set({
+    this.setState({
       [e.target.name]: e.target.value
     })
   }
